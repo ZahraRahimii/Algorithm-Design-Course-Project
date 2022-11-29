@@ -13,6 +13,6 @@ b) When placing one cube on top of another, the lower cube should be heavier tha
 In the issue of eight ministers, some chess houses have walls and prevent threats. It is not possible to place the minister in houses that are covered with walls. We want to find all the possible positions that eight ministers can be placed in such an environment. The following example is an example of a solution:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/93929227/204458807-e77c6f1a-7366-444c-8936-c67b403ff53a.png" width="40%" height="40%">
+<img src="https://user-images.githubusercontent.com/93929227/204458807-e77c6f1a-7366-444c-8936-c67b403ff53a.png" width="10%" height="10%">
 <p/>
 ## Eight ministers (or queens) problem with scored obsatcle
