@@ -1,0 +1,45 @@
+//        /* Check upper diagonal on right side */
+//        /*
+//            |
+//        ____|____
+//            |i
+//            | o
+//         */
+//        i_obstacle = -1;
+//        j_obstacle = -1;
+//        i_minister = -1;
+//        j_minister = -1;
+//        for (i = row, j = col; j < N && i < N; i++, j++) {
+//            if (board[i][j] == 2) {
+//                i_obstacle = i;
+//                j_obstacle = j;
+//            } else if (board[i][j] == 1) {
+//                i_minister = i;
+//                j_minister = j;
+//            }
+//        }
+//        if (i_minister < i_obstacle && j_minister < j_obstacle)
+//            return false;
+////
+//        /* Check lower diagonal on right side */
+//        /*
+//           | o
+//        ___|i____
+//           |
+//           |
+//         */
+//        i_obstacle = -1;
+//        j_obstacle = -1;
+//        i_minister = -1;
+//        j_minister = -1;
+//        for (i = row, j = col; i >=0 && j < N; i--, j++) {
+//            if (board[i][j] == 2) {
+//                i_obstacle = i;
+//                j_obstacle = j;
+//            } else if (board[i][j] == 1) {
+//                i_minister = i;
+//                j_minister = j;
+//            }
+//        }
+//        if (i_minister > i_obstacle && j_minister < j_obstacle)
+//            return false;
